@@ -5,3 +5,9 @@ function makeNegative(num) {
     return num  - num * 2
   }
 }
+
+
+function solution(str){
+  
+  return [...str].reverse().join('')
+}
