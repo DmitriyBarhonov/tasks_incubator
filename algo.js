@@ -8,6 +8,7 @@ function makeNegative(num) {
 
 
 function solution(str){
-  
   return [...str].reverse().join('')
 }
+
+const boolToWord = ( bool ) => bool ? "Yes" : "No"
