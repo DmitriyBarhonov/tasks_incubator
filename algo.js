@@ -12,3 +12,8 @@ function solution(str){
 }
 
 const boolToWord = ( bool ) => bool ? "Yes" : "No"
+
+
+function numberToString(num) {
+  return num.toString()
+}
