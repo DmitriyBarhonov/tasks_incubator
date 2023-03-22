@@ -27,3 +27,13 @@ function opposite(number) {
     return number - (number * 2)
   }
 }
+
+// На следующий день
+
+function removeChar(str) {
+  if (str.length > 2) {
+    return str.slice(1, str.length - 1)
+  } else {
+    return ''
+  }
+};
