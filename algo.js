@@ -60,3 +60,7 @@ const  summation = (num)=> {
     }
   return result
 }
+
+function noSpace(x){
+  return x.replace(/ /g,'')
+}
