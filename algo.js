@@ -28,7 +28,7 @@ function opposite(number) {
   }
 }
 
-// На следующий день
+
 
 function removeChar(str) {
   if (str.length > 2) {
@@ -37,3 +37,4 @@ function removeChar(str) {
     return ''
   }
 };
+
