@@ -31,10 +31,13 @@ function opposite(number) {
 
 
 function removeChar(str) {
-  if (str.length > 2) {
+  if (str.length > 2) { 
     return str.slice(1, str.length - 1)
   } else {
     return ''
   }
 };
 
+function multiply(a, b){
+  return a * b
+}
