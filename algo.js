@@ -31,62 +31,72 @@ function opposite(number) {
 
 
 function removeChar(str) {
-  if (str.length > 2) { 
+  if (str.length > 2) {
     return str.slice(1, str.length - 1)
   } else {
     return ''
   }
 };
 
-function multiply(a, b){
+function multiply(a, b) {
   return a * b
 }
 //  4
 
-function repeatStr (n, s) {
+function repeatStr(n, s) {
   let result = ""
-  for(let i = 0; i < n; i++){
-    result = result+s
-}
+  for (let i = 0; i < n; i++) {
+    result = result + s
+  }
   return result
 }
 
-const  summation = (num)=> {
+const summation = (num) => {
   let result = 0
-    if(num >= 1){
-      for(let i = 0; i <= num; i++){
+  if (num >= 1) {
+    for (let i = 0; i <= num; i++) {
       result += i
     }
-    }
+  }
   return result
 }
 
-function noSpace(x){
-  return x.replace(/ /g,'')
+function noSpace(x) {
+  return x.replace(/ /g, '')
 }
 
 class SmallestIntegerFinder {
   findSmallestInt(args) {
     let min = Infinity
-    for(let i = 0; i < args.length; i++){
-      if (args[i] < min){
+    for (let i = 0; i < args.length; i++) {
+      if (args[i] < min) {
         min = args[i]
       }
     }
-  return min
+    return min
   }
 }
 
-let a = [1,2,3,4,5,6,7]
 
 function check(a, x) {
-  for(let i = 0; i < a.length; i++){
+  for (let i = 0; i < a.length; i++) {
     console.log(a[i])
-    if(a[i] === x){
+    if (a[i] === x) {
       return true
-    } 
+    }
   }
   return false
 }
 
-console.log(check(a,34))
+// let a = [1,2,3,4,5]
+function findAverage(arr) {
+  let result = 0
+  let i
+  if (!arr.length) {
+    return 0
+  }
+  for (i = 0; i < arr.length; i++) {
+    result = result + arr[i]
+  }
+  return result / i
+}
