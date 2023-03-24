@@ -108,3 +108,11 @@ function simpleMultiplication(num) {
     return num * 9
   }
 }
+
+function grow(x){
+  let result = 1
+   for (let i = 0; i < x.length; i++){
+     result = result * x[i]
+   }
+   return result
+ }
