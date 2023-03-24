@@ -76,3 +76,17 @@ class SmallestIntegerFinder {
   return min
   }
 }
+
+let a = [1,2,3,4,5,6,7]
+
+function check(a, x) {
+  for(let i = 0; i < a.length; i++){
+    console.log(a[i])
+    if(a[i] === x){
+      return true
+    } 
+  }
+  return false
+}
+
+console.log(check(a,34))
