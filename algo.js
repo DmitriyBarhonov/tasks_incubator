@@ -125,3 +125,7 @@ function grow(x){
    }
   return a
 };
+
+function makeUpperCase(str) {
+  return str.toUpperCase ()
+ }
