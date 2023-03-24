@@ -116,3 +116,12 @@ function grow(x){
    }
    return result
  }
+
+ const reverseSeq = n => {
+  let a = []
+   while (n){
+     a.push(n)
+     n--
+   }
+  return a
+};
