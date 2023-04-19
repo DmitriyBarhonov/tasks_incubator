@@ -6,6 +6,10 @@ function makeNegative(num) {
   }
 }
 
+function removeExclamationMarks(s) {
+  return s.replace(/\!/g, '');
+}
+
 
 function solution(str) {
   return [...str].reverse().join('')
