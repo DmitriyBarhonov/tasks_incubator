@@ -10,6 +10,16 @@ function removeExclamationMarks(s) {
   return s.replace(/\!/g, '');
 }
 
+
+function greet (name, owner) {
+  if(owner === name){
+    return `Hello boss`
+  }else{
+    return "Hello guest"
+  }
+}
+
+
 const areaOrPerimeter = function(l , w) {
   if(l === w){
     return l * w
