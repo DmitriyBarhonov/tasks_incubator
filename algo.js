@@ -19,6 +19,16 @@ function greet (name, owner) {
   }
 }
 
+function monkeyCount(n) {
+ let a =[]
+ let count = 1
+ while(n){
+   a.push(count)
+   count++
+   n--
+ }
+  return a
+}
 
 const areaOrPerimeter = function(l , w) {
   if(l === w){
