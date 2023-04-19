@@ -10,6 +10,13 @@ function removeExclamationMarks(s) {
   return s.replace(/\!/g, '');
 }
 
+const areaOrPerimeter = function(l , w) {
+  if(l === w){
+    return l * w
+  }else{
+    return (l + w) * 2
+  }
+};
 
 function solution(str) {
   return [...str].reverse().join('')
